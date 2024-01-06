@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GuitarLA</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- header-bar -->
+      <div class="header__container">
+        <div class="header__bar">
+          <a href="/">
+            <img src="img/logo.svg" alt="logo" class="header__logo" />
+          </a>
+          <nav class="navigation">
+            <a class="navigation__link" href="index.html">Home</a>
+            <a class="navigation__link" href="about.html">About</a>
+            <a class="navigation__link" href="blog.html">Blog</a>
+            <a class="navigation__link" href="store.html">Store</a>
+          </nav>
+        </div>
+      </div>
+      <!-- header-bar -->
+    </header>
+    <main class="product__container">
+      <div class="product">
+        <img
+          src="img/guitarra_01.jpg"
+          alt="guitar 1"
+          class="product__image"
+        />
+        <div class="product__info">
+          <h3 class="product__name">Lukather</h3>
+          <p class="product__description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam non
+            excepturi itaque quidem tempore porro, eum ad dolorum molestias et
+            quia at enim necessitatibus distinctio rerum! Deleniti similique
+            nesciunt molestias?
+          </p>
+          <p class="product__price">$399.99</p>
+          <form class="product__form">
+            <label for="quantity" class="product__label">Quantity</label>
+            <select class="product__select" name="quantity" id="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <button class="product__button">
+              Add to cart
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+		<footer class="footer">
+			<div class="footer__container footer__info">
+				<nav class="footer__nav">
+					<a href="index.html" class="footer__link">Home</a>
+					<a href="about.html" class="footer__link">About</a>
+					<a href="blog.html" class="footer__link">Blog</a>
+					<a href="store.html" class="footer__link">Store</a>
+				</nav>
+				<p class="footer__copyright">All rights reserved</p>
+			</div>
+		</footer>
+  </body>
+</html>
